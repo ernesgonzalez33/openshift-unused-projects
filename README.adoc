@@ -1,0 +1,11 @@
+= OpenShift Unused Projects
+
+Repository with a series of scripts to get posible unused OpenShift projects.
+
+Three possible approaches as of this moment:
+
+- Projects without pods nor pvcs
+- Projects without pods but with pvcs
+- Projects with ImageStreams not updated for longer than three months
+- Projects with "test" in its name
+
